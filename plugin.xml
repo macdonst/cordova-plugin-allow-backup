@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:rim="http://www.blackberry.com/ns/widgets" id="cordova-plugin-allow-backup" version="0.0.1">
+  <name>cordova-plugin-allow-backup</name>
+  <description>
+		To enable you to set the allowBackup property of a cordova-android application.
+	</description>
+  <license>MIT</license>
+  <engines>
+    <engine name="cordova" version=">=6.4.0"/>
+    <engine name="cordova-android" version=">=6.0.0"/>
+  </engines>
+  <preference name="BACKUP" default="false"/>
+  <platform name="android">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+        <application android:allowBackup="$BACKUP" />
+    </edit-config>
+  </platform>
+</plugin>
