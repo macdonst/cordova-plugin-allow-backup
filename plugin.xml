@@ -12,7 +12,7 @@
   <preference name="BACKUP" default="false"/>
   <platform name="android">
     <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
-        <application android:allowBackup="$BACKUP" />
+      <application android:allowBackup="$BACKUP"/>
     </edit-config>
   </platform>
 </plugin>
