@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-allow-backup",
+  "version": "0.0.1",
+  "description": "To enable you to set the allowBackup property of a cordova-android application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macdonst/cordova-plugin-allow-backup.git"
+  },
+  "keywords": [
+    "cordova"
+  ],
+  "author": "Simon MacDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macdonst/cordova-plugin-allow-backup/issues"
+  },
+  "homepage": "https://github.com/macdonst/cordova-plugin-allow-backup#readme",
+  "devDependencies": {
+    "pluginpub": "0.0.8"
+  }
+}
